@@ -1,6 +1,6 @@
 //const { ok } = require('assert')
 const bcrypt = require('bcrypt')
-const jw = require('jsonwebtoken')
+const jwt = require('jsonwebtoken')
 const connection = require('.././modal/connection')
 const uuid = require('uuid').v4
 
